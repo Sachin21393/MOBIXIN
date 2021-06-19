@@ -1,0 +1,156 @@
+
+#mobixinhead{
+    padding-left: 250px;
+    color: rgb(51, 84, 134);
+}
+#helpline{
+    padding-right: -50px;
+    color: rgb(127, 127, 224);
+}
+#topSection{
+    border-bottom: 2px solid rgb(36, 35, 35);
+}
+
+.nav-link {
+background-color: rgb(211, 250, 253);
+margin: 5px;
+border-radius: 5px;
+
+}
+#navbarSupportedContent{
+    padding-right: 25px;
+}
+
+.navbar-brand{
+    padding-left: 1rem;
+  /*  color:#FFD700 !important;*/
+    font-size: 22px  !important ;
+    
+    
+  
+  }
+  
+  #adminSpan{
+      background-color: rgb(255, 236, 210);
+      padding: 5px;
+      border-radius: 5px;
+  }
+  #carousell{
+      padding: 25px;
+      
+     
+     
+      border-bottom: 2px solid rgb(36, 35, 35);
+      
+  }
+  #Aboutus{
+      margin-top: 70px;
+      background-color: rgb(190, 190, 190);
+      padding: 50px;
+  }
+#aboutustext{
+padding: 25px;
+
+}
+
+#gallery{
+    margin-top: 70px;
+}
+
+.imageContainer{
+  position: relative;
+  cursor: pointer;
+  padding: 5px;
+}
+.imgOverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+height: 100%;
+width: 100%;
+background-color: cyan;
+opacity: 0;
+
+}
+
+.imageContainer:hover .imgOverlay{
+  opacity: 0.5;
+
+}
+#footer .py-5{
+    background-color:rgb(51, 84, 134) ;
+
+}
+.firstcontent{
+padding: 10px;
+}
+.secondcontent{
+    padding: 10px;
+}
+.thirdcontent{
+    padding: 10px;
+}
+#social{
+    margin-top: 50px;
+    
+}
+#social1{
+    padding: 10px;
+    color: honeydew;
+}
+#social2{
+    padding: 10px;
+    color: honeydew;
+}
+#social3{
+    padding: 10px;
+    color: honeydew;
+}
+#contactus{
+    color: blanchedalmond;
+}
+.btnxx{
+    padding-left: -50px;
+    margin-top: 15px;
+   
+}
+
+#mkc{
+    
+    font-size: large;
+    text-decoration: none;
+}
+
+@media screen and (max-width:576px)
+{
+    #Atharva{
+        padding-left: 40px;
+    }
+    #social{
+        padding-bottom: 20px;
+    }
+    #mkc{
+        
+        color: black;
+        
+    }
+    #betii{
+        font-weight: 500px;
+        
+    }
+    #mobixinhead{
+   padding-right: 150px;
+    }
+    #mobixintext{
+        display: flex;
+    }
+    #helplinedetail{
+        font-size: 15px;
+    }
+    #adminSpan{
+        font-size: smaller;
+    }
+  
+}
